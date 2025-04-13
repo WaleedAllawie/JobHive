@@ -3,9 +3,6 @@ import Navbar from "./nirvana/Navbar";
 import Hero from "./nirvana/Hero";
 import About from "./nirvana/About";
 import Services from "./nirvana/Services";
-import Gallery from "./nirvana/Gallery";
-import Testimonials from "./nirvana/Testimonials";
-import Contact from "./nirvana/Contact";
 import Footer from "./nirvana/Footer";
 import { useScrollToTop } from "@/lib/animations";
 
@@ -18,9 +15,6 @@ export default function NirvanaLanding() {
       <Hero />
       <About />
       <Services />
-      <Gallery />
-      <Testimonials />
-      <Contact />
       <Footer />
       
       {/* Scroll to top button */}

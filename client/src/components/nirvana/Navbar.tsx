@@ -60,27 +60,6 @@ export default function Navbar() {
               >
                 Services
               </a>
-              <a 
-                href="#gallery" 
-                className="px-3 py-2 rounded-md text-sm font-medium hover:text-[#a67c52] transition-colors duration-200"
-                onClick={(e) => { e.preventDefault(); scrollToSection("gallery"); }}
-              >
-                Gallery
-              </a>
-              <a 
-                href="#testimonials" 
-                className="px-3 py-2 rounded-md text-sm font-medium hover:text-[#a67c52] transition-colors duration-200"
-                onClick={(e) => { e.preventDefault(); scrollToSection("testimonials"); }}
-              >
-                Testimonials
-              </a>
-              <a 
-                href="#contact" 
-                className="px-3 py-2 rounded-md text-sm font-medium hover:text-[#a67c52] transition-colors duration-200"
-                onClick={(e) => { e.preventDefault(); scrollToSection("contact"); }}
-              >
-                Contact
-              </a>
             </div>
           </div>
           
@@ -113,27 +92,6 @@ export default function Navbar() {
             onClick={(e) => { e.preventDefault(); scrollToSection("services"); }}
           >
             Services
-          </a>
-          <a 
-            href="#gallery" 
-            className="block px-3 py-2 rounded-md text-base font-medium hover:text-[#a67c52]"
-            onClick={(e) => { e.preventDefault(); scrollToSection("gallery"); }}
-          >
-            Gallery
-          </a>
-          <a 
-            href="#testimonials" 
-            className="block px-3 py-2 rounded-md text-base font-medium hover:text-[#a67c52]"
-            onClick={(e) => { e.preventDefault(); scrollToSection("testimonials"); }}
-          >
-            Testimonials
-          </a>
-          <a 
-            href="#contact" 
-            className="block px-3 py-2 rounded-md text-base font-medium hover:text-[#a67c52]"
-            onClick={(e) => { e.preventDefault(); scrollToSection("contact"); }}
-          >
-            Contact
           </a>
         </div>
       </div>

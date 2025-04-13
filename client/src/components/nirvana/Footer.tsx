@@ -72,30 +72,7 @@ export default function Footer() {
                   Our Services
                 </button>
               </li>
-              <li>
-                <button 
-                  onClick={() => scrollToSection("gallery")}
-                  className="text-sm hover:text-[#a67c52] transition-colors"
-                >
-                  Gallery
-                </button>
-              </li>
-              <li>
-                <button 
-                  onClick={() => scrollToSection("testimonials")}
-                  className="text-sm hover:text-[#a67c52] transition-colors"
-                >
-                  Testimonials
-                </button>
-              </li>
-              <li>
-                <button 
-                  onClick={() => scrollToSection("contact")}
-                  className="text-sm hover:text-[#a67c52] transition-colors"
-                >
-                  Contact Us
-                </button>
-              </li>
+
             </ul>
           </div>
 
