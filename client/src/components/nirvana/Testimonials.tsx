@@ -68,7 +68,7 @@ export default function Testimonials() {
         <div className={`text-center mb-16 transition-all duration-700 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h2 className="text-3xl font-serif font-semibold mb-4 relative inline-block">
             <span className="inline-block pr-1 relative">
-              Client Experiences
+              Testimonials
               <span className="absolute -bottom-1 left-0 h-0.5 w-full bg-[#a67c52]"></span>
             </span>
           </h2>

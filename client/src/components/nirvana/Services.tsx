@@ -62,12 +62,6 @@ export default function Services() {
               <div className="p-6 text-center">
                 <h3 className="text-xl font-serif font-semibold mb-3">{service.title}</h3>
                 <p className="text-sm text-[#333] opacity-80 mb-4">{service.description}</p>
-                <a href="#" className="inline-block text-[#a67c52] hover:text-[#d8c0aa] transition-colors text-sm tracking-wider">
-                  LEARN MORE 
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 inline ml-1" viewBox="0 0 20 20" fill="currentColor">
-                    <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                  </svg>
-                </a>
               </div>
             </div>
           ))}

@@ -10,7 +10,7 @@ export default function About() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <div className={`transition-all duration-1000 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <img 
-              src="https://images.unsplash.com/photo-1583417319070-4a69db38a482?ixlib=rb-4.0.3&auto=format&fit=crop&w=880&q=80" 
+              src="https://images.unsplash.com/photo-1596178060671-7a80dc8059ea?ixlib=rb-4.0.3&auto=format&fit=crop&w=1529&q=80" 
               alt="Spa environment" 
               className="rounded-lg shadow-md w-full h-auto object-cover" 
               style={{ maxHeight: "500px" }}

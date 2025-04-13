@@ -17,7 +17,7 @@ export default function Hero() {
       id="hero" 
       className="relative pt-32 pb-20 px-4 md:px-8 lg:px-16 xl:px-20 bg-cover bg-center min-h-screen flex items-center" 
       style={{ 
-        backgroundImage: "linear-gradient(to bottom, rgba(254, 248, 244, 0.2), rgba(254, 248, 244, 0.8)), url('https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')" 
+        backgroundImage: "linear-gradient(to bottom, rgba(254, 248, 244, 0.2), rgba(254, 248, 244, 0.8)), url('https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80')" 
       }}
     >
       <div className="container mx-auto text-center max-w-4xl" ref={ref}>
