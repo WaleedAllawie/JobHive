@@ -1,5 +1,6 @@
 import React from "react";
 import { useInView } from "@/lib/animations";
+import NirvanaLogo from "../../assets/nirvana-logo.png";
 
 export default function Hero() {
   const { ref, isInView } = useInView();
@@ -21,7 +22,11 @@ export default function Hero() {
     >
       <div className="container mx-auto text-center max-w-4xl" ref={ref}>
         <div className={`transition-opacity duration-1000 ${isInView ? 'opacity-100' : 'opacity-0'}`}>
-          <div className="h-24 w-24 mx-auto mb-6 rounded-full bg-gradient-to-r from-orange-300 to-pink-400 flex items-center justify-center text-white font-bold text-3xl">N</div>
+          <img 
+            src={NirvanaLogo} 
+            alt="Nirvana Spa Jordan Logo" 
+            className="h-28 w-auto mx-auto mb-6 filter drop-shadow-md" 
+          />
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-semibold tracking-wide mb-2">NIRVANA</h1>
           <h2 className="text-lg md:text-xl text-[#a67c52] tracking-widest mb-4">SPA JORDAN</h2>
           <p className="text-xl md:text-2xl mt-4 italic font-serif text-[#333] mb-6">Your Sanctuary of Elegance and Beauty</p>

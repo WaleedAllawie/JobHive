@@ -1,5 +1,6 @@
 import React from "react";
 import { FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa";
+import NirvanaLogo from "../../assets/nirvana-logo.png";
 
 export default function Footer() {
   const scrollToSection = (sectionId: string) => {
@@ -15,7 +16,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-4">
-              <div className="h-12 w-12 rounded-full bg-gradient-to-r from-orange-300 to-pink-400 flex items-center justify-center text-white font-bold text-xl">N</div>
+              <img src={NirvanaLogo} alt="Nirvana Spa Jordan Logo" className="h-12 w-auto" />
               <div className="ml-3">
                 <h2 className="text-lg font-serif font-semibold tracking-wider">NIRVANA</h2>
                 <p className="text-xs text-[#a67c52] tracking-widest">SPA JORDAN</p>

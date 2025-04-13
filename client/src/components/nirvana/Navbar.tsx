@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import NirvanaLogo from "../../assets/nirvana-logo.png";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,8 +35,11 @@ export default function Navbar() {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <a href="#hero" className="flex items-center" onClick={(e) => { e.preventDefault(); scrollToSection("hero"); }}>
-                <div className="h-12 w-12 rounded-full bg-gradient-to-r from-orange-300 to-pink-400 flex items-center justify-center text-white font-bold text-xl">N</div>
-                <span className="ml-2 text-lg font-serif font-semibold tracking-wider">NIRVANA</span>
+                <img src={NirvanaLogo} alt="Nirvana Spa Jordan Logo" className="h-12 w-auto" />
+                <div className="ml-2">
+                  <span className="text-lg font-serif font-semibold tracking-wider block">NIRVANA</span>
+                  <span className="text-xs text-[#a67c52] tracking-widest block">SPA JORDAN</span>
+                </div>
               </a>
             </div>
           </div>
