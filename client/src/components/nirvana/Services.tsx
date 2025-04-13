@@ -20,7 +20,7 @@ const services = [
   {
     title: "Nail Care",
     description: "Pamper your hands and feet with our luxurious manicure and pedicure treatments.",
-    image: "https://images.unsplash.com/photo-1610992248815-ceac25f343f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+    image: "https://images.unsplash.com/photo-1604654894610-df63bc536371?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
   }
 ];
 
@@ -65,6 +65,10 @@ export default function Services() {
               </div>
             </div>
           ))}
+        </div>
+        
+        <div className={`text-center mt-10 transition-all duration-1000 delay-700 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+          <p className="text-xl font-serif font-semibold text-[#a67c52]">AND MORE</p>
         </div>
 
 

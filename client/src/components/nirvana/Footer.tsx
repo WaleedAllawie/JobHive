@@ -13,7 +13,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#f2e8df] text-[#333]">
       <div className="container mx-auto py-12 px-4 md:px-8 lg:px-16 xl:px-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center mb-4">
               <img src={NirvanaLogo} alt="Nirvana Spa Jordan Logo" className="h-12 w-auto" />
@@ -122,26 +122,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
-            <h3 className="text-md font-serif font-semibold mb-4">Subscribe to Our Newsletter</h3>
-            <p className="text-sm opacity-80 mb-3">Stay updated with our latest offers and news.</p>
-            <form className="flex space-x-2">
-              <input 
-                type="email" 
-                placeholder="Your Email" 
-                className="flex-1 py-2 px-3 text-sm rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#a67c52] focus:border-transparent"
-                required
-              />
-              <button 
-                type="submit" 
-                className="bg-[#a67c52] text-white py-2 px-4 rounded-md hover:bg-[#d8c0aa] transition-colors duration-300 text-sm"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                  <path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z" />
-                </svg>
-              </button>
-            </form>
-          </div>
+
         </div>
 
         <div className="border-t border-gray-300 mt-10 pt-6 text-center">
