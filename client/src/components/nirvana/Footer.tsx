@@ -58,11 +58,23 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center">
                 <FaPhoneAlt className="text-[#a67c52] mr-2" />
-                <span className="text-sm">+962 79 123 4567</span>
+                <a 
+                  href="tel:+96265652673" 
+                  className="text-sm hover:text-[#a67c52] transition-colors"
+                >
+                  +962 6 565 2673
+                </a>
               </li>
               <li className="flex items-start">
                 <FaMapMarkerAlt className="text-[#a67c52] mr-2 mt-0.5" />
-                <span className="text-sm">123 Al Rawnaq Street, Abdoun, Amman, Jordan</span>
+                <a 
+                  href="https://wego.here.com/directions/mix//Nirvana-Spa,-Culture-Street-13-Shmeisani,-1118-Amman:e-eyJuYW1lIjoiTmlydmFuYSBTcGEiLCJhZGRyZXNzIjoiQ3VsdHVyZSBTdHJlZXQgIzEzIC0gU2htZWlzYW5pLCBBbW1hbiwgSm9yZGFuIiwibGF0aXR1ZGUiOjMxLjk2OTQ1MjU4MzQwMiwibG9uZ2l0dWRlIjozNS44OTg3NzY3OTMzNTIsInByb3ZpZGVyTmFtZSI6ImZhY2Vib29rIiwicHJvdmlkZXJJZCI6MTE2Nzg5NDExNzI5Mzk5fQ==?map=31.96945,35.89878,15,normal" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-sm hover:text-[#a67c52] transition-colors"
+                >
+                  Culture Street #13, Shmeisani, Amman, Jordan
+                </a>
               </li>
               <li>
                 <button 
