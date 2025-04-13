@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaFacebookF, FaTwitter, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 import NirvanaLogo from "../../assets/nirvana-logo.png";
 
 export default function Footer() {
@@ -54,8 +54,16 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-md font-serif font-semibold mb-4">Quick Links</h3>
-            <ul className="space-y-2">
+            <h3 className="text-md font-serif font-semibold mb-4">Contact Us</h3>
+            <ul className="space-y-3">
+              <li className="flex items-center">
+                <FaPhoneAlt className="text-[#a67c52] mr-2" />
+                <span className="text-sm">+962 79 123 4567</span>
+              </li>
+              <li className="flex items-start">
+                <FaMapMarkerAlt className="text-[#a67c52] mr-2 mt-0.5" />
+                <span className="text-sm">123 Al Rawnaq Street, Abdoun, Amman, Jordan</span>
+              </li>
               <li>
                 <button 
                   onClick={() => scrollToSection("about")}
@@ -72,7 +80,6 @@ export default function Footer() {
                   Our Services
                 </button>
               </li>
-
             </ul>
           </div>
 

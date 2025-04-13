@@ -5,7 +5,7 @@ export default function About() {
   const { ref, isInView } = useInView();
   
   return (
-    <section id="about" className="py-20 px-4 md:px-8 lg:px-16 xl:px-20 bg-[#fffaf7]">
+    <section id="about" className="py-12 px-4 md:px-8 lg:px-16 xl:px-20 bg-[#fffaf7]">
       <div className="container mx-auto max-w-6xl" ref={ref}>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <div className={`transition-all duration-1000 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
@@ -25,8 +25,7 @@ export default function About() {
               </span>
             </h2>
             <p className="text-[#333] mb-6 leading-relaxed">At Nirvana, we believe that true beauty begins from within. Our mission is to nurture both body and spirit, creating a harmonious retreat from the demands of everyday life.</p>
-            <p className="text-[#333] mb-6 leading-relaxed">Founded in 2015, Nirvana Spa Jordan has established itself as a premier destination for those seeking an exceptional experience of refined care. Our skilled therapists and aestheticians combine time-honored techniques with modern innovations to deliver transformative results.</p>
-            <p className="text-[#333] mb-8 leading-relaxed">We pride ourselves on creating a serene environment where every detail has been thoughtfully considered – from our signature essential oil blends to our carefully curated selection of premium products. When you visit Nirvana, you're not just booking a treatment; you're embarking on a journey of self-renewal.</p>
+            <p className="text-[#333] mb-6 leading-relaxed">Founded in 2015, Nirvana Spa Jordan has established itself as a premier destination for women seeking exceptional experiences of refined care and luxury.</p>
             
             <div className="flex flex-wrap gap-4">
               <div className="flex items-center">
