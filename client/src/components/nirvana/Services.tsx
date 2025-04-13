@@ -5,7 +5,7 @@ const services = [
   {
     title: "Facial Treatments",
     description: "Revitalize your skin with our personalized facial treatments using premium organic products.",
-    image: "https://images.unsplash.com/photo-1603816771785-3da9751f9de7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1574&q=80"
+    image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3&auto=format&fit=crop&w=1374&q=80"
   },
   {
     title: "Body Massages",
@@ -20,7 +20,7 @@ const services = [
   {
     title: "Nail Care",
     description: "Pamper your hands and feet with our luxurious manicure and pedicure treatments.",
-    image: "https://images.unsplash.com/photo-1607779097040-28d8a56592e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1527&q=80"
+    image: "https://images.unsplash.com/photo-1610992248815-ceac25f343f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
   }
 ];
 
@@ -67,11 +67,7 @@ export default function Services() {
           ))}
         </div>
 
-        <div className={`text-center mt-12 transition-all duration-1000 delay-500 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <button className="px-6 py-3 bg-[#a67c52] text-white rounded-full hover:bg-[#d8c0aa] transition-colors duration-300 inline-block">
-            View All Services
-          </button>
-        </div>
+
       </div>
     </section>
   );

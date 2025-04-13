@@ -80,29 +80,44 @@ export default function Footer() {
             <h3 className="text-md font-serif font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-sm hover:text-[#a67c52] transition-colors">
+                <button 
+                  onClick={() => scrollToSection("services")}
+                  className="text-sm hover:text-[#a67c52] transition-colors"
+                >
                   Facial Treatments
-                </a>
+                </button>
               </li>
               <li>
-                <a href="#" className="text-sm hover:text-[#a67c52] transition-colors">
+                <button 
+                  onClick={() => scrollToSection("services")}
+                  className="text-sm hover:text-[#a67c52] transition-colors"
+                >
                   Body Massages
-                </a>
+                </button>
               </li>
               <li>
-                <a href="#" className="text-sm hover:text-[#a67c52] transition-colors">
+                <button 
+                  onClick={() => scrollToSection("services")}
+                  className="text-sm hover:text-[#a67c52] transition-colors"
+                >
                   Hair Styling
-                </a>
+                </button>
               </li>
               <li>
-                <a href="#" className="text-sm hover:text-[#a67c52] transition-colors">
+                <button 
+                  onClick={() => scrollToSection("services")}
+                  className="text-sm hover:text-[#a67c52] transition-colors"
+                >
                   Nail Care
-                </a>
+                </button>
               </li>
               <li>
-                <a href="#" className="text-sm hover:text-[#a67c52] transition-colors">
+                <button 
+                  onClick={() => scrollToSection("services")}
+                  className="text-sm hover:text-[#a67c52] transition-colors"
+                >
                   Spa Packages
-                </a>
+                </button>
               </li>
             </ul>
           </div>
