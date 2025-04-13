@@ -18,7 +18,7 @@ export default defineConfig({
         ]
       : []),
   ],
-  base:"/JobHive",
+  base: "/JobHive/", // Make sure to add trailing slash
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
