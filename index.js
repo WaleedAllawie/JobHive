@@ -31,7 +31,7 @@ var vite_config_default = defineConfig({
       )
     ] : []
   ],
-  base: "/JobHive",
+  base: "/JobHive/",
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
